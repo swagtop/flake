@@ -12,10 +12,6 @@
   boot.initrd.kernelModules = [ ];
   boot.kernelModules = [ "kvm-intel" ];
   boot.extraModulePackages = [ ];
-  boot.kernelParams = [
-    "radeon.cik_support=0"
-    "amdgpu.cik_support=1"
-  ];
 
   fileSystems."/" =
     { device = "/dev/disk/by-uuid/83ddf5fd-8eab-4173-956d-451dccd814b6";

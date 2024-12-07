@@ -17,7 +17,7 @@
   boot.loader.efi.canTouchEfiVariables = true;
 
   # Set hostname. 
-  networking.hostName = "gamebeast";
+  networking.hostName = "swagtop";
   
   # Enables wireless support via wpa_supplicant.
   # networking.wireless.enable = true;  
